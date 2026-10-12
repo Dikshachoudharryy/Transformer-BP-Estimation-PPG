@@ -36,3 +36,6 @@ models/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Local notebook backups
+notebook_backup/
