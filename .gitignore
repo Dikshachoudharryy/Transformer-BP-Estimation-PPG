@@ -1,0 +1,38 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Patient data and datasets — do not upload
+BP_Dataset/
+data/
+patient_data/
+patient_faces/
+labels_final.csv
+validated_scalogram_labels_test.csv
+validated_window_labels_test.csv
+
+# Generated scalograms and outputs
+scalograms_final/
+outputs/
+temp/
+
+# Model checkpoints and serialized models
+models/
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.pkl
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
